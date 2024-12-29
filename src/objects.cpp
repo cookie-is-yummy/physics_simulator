@@ -1,12 +1,9 @@
-//
-// Created by rando on 12/18/2024.
-//
 #include <math.h>
 #include "objects.h"
 #include <raylib.h>
 #include <bits/stdc++.h>
 #include "objects.h"  // Include the header file
-#include <cmath>     // For pow and cos/sin functions
+#include <cmath>
 
 const int PIXELS_PER_METER = 64;
 const int FPS = 60;
@@ -93,9 +90,9 @@ void RectangleObject::checkCollision(vector<SimpleObject> objects) {
 
 
 
+// check if lines are whatever whatever
 
-
-
+// what the world mannnnn??gwat tiem is it bro
 
 // Implement the checkCollision method
 void RectangleObject::checkCollision(vector<pair<Vector2, Vector2>> surfaces) {

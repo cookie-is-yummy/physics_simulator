@@ -12,10 +12,8 @@ public:
     Vector2 velocity;
     double mass;
     Color colour;
-
     SimpleObject(Vector2 p, Vector2 v, double m, Color c);
     SimpleObject(Vector2 p, Color c);
-
     virtual void update() = 0;
     virtual void draw() = 0;
     virtual void drawBorders() = 0;
